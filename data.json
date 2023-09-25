@@ -2,7 +2,7 @@
   "landingPage": {
     "title": "Take control of your",
     "title_highlight": "dream business",
-    "subtitle": " loom site A tool created by developers, for developers.Help your teams streamline, accelerate and collaborate.",
+    "subtitle": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua. ",
     "lightLogo": "/logo.png",
     "darkLogo": "/logoDark.png",
     "navbar": [
@@ -14,6 +14,57 @@
     "add_card": {
       "title": "Add your card to get 50% on paid package after launch",
       "subtitle": "Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec."
+    },
+    "featureSection": {
+      "title": "Inbox support built for efficiency",
+      "subtitle": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit aliquam sit nisl euismod mattis in.",
+      "features": [
+        {
+          "featureTitle": "Innovation",
+          "featureDiscription": "Transforming the present, shaping the future: Embrace innovation & redefine what possible in a world of endless potential."
+        },
+        {
+          "featureTitle": "Growth",
+          "featureDiscription": "Nurturing progress, expanding horizons: Growth is  catalyst that propels forward on the journey of transformation."
+        },
+        {
+          "featureTitle": "Teamwork",
+          "featureDiscription": "Strength in unity: Together, we conquer challenges, spark brilliance, and achieve greatness through the power of teamwork."
+        },
+        {
+          "featureTitle": "Commitment",
+          "featureDiscription": "Devotion that knows no bounds: wavering commitment fuels progress, fosters growth, & paves the way to success."
+        },
+        {
+          "featureTitle": "Openness",
+          "featureDiscription": "Transparent, inclusive, and receptive: Openness creates space for ideas to flourish and collaborations to thrive."
+        },
+        {
+          "featureTitle": "Ownership",
+          "featureDiscription": "Empowered to lead, driven to excel Ownership fuels our passion, ignites innovation extraordinary achievements."
+        }
+      ]
+    },
+    "services": {
+      "servicesTitle": "What Do You Have To Choose?",
+      "services": [
+        {
+          "serviceName": "Cross-border transactions",
+          "serviceDescription": "Make transactions arond the world quickly and safey"
+        },
+        {
+          "serviceName": "Fast & easy transactions",
+          "serviceDescription": "PayZen prioritize the satisfactions of our users. Try PayZen now"
+        },
+        {
+          "serviceName": "24 hours assistance",
+          "serviceDescription": "We are 24 hours available to help you. We are there for you"
+        },
+        {
+          "serviceName": "You satisfaction is our priority",
+          "serviceDescription": "We always put the happiness of our users first"
+        }
+      ]
     },
     "testimonials": [
       {

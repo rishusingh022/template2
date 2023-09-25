@@ -4,6 +4,8 @@ import HeroSection from "./components/HeroSection";
 import AddCard from "./components/AddCard";
 import AskQuestion from "./components/AskQuestions";
 import Footer from "./components/Footer";
+import Features from "./components/Feature";
+import Service from "./components/Service";
 
 const config = json_data;
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
         title_highlight={config?.landingPage?.title_highlight}
         subtitle={config?.landingPage?.subtitle}
       />
+      <Service serviceData = {config?.landingPage.services} />
+      <Features featureData = {config?.landingPage.featureSection}/>
       <AddCard add_card={config?.landingPage?.add_card} />
       <AskQuestion />
       <Footer />
