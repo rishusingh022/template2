@@ -1,0 +1,122 @@
+{
+  "landingPage": {
+    "title": "Take control of your",
+    "title_highlight": "dream business",
+    "subtitle": " loom site A tool created by developers, for developers.Help your teams streamline, accelerate and collaborate.",
+    "lightLogo": "/logo.png",
+    "darkLogo": "/logoDark.png",
+    "navbar": [
+      {
+        "key": "bs8RL0C8mp",
+        "itemName": "Sign in"
+      }
+    ],
+    "add_card": {
+      "title": "Add your card to get 50% on paid package after launch",
+      "subtitle": "Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec."
+    },
+    "testimonials": [
+      {
+        "imageURL": "/64783116669464f45602f05e-herovector-1.svg",
+        "name": "John Doe",
+        "profession": "developer",
+        "testimonial": " test site This is the best service I have ever used!"
+      },
+      {
+        "imageURL": "/64783116669464f45602f05e-herovector-1.svg",
+        "name": "Jane Doe",
+        "profession": "tester",
+        "testimonial": "I highly recommend this service!"
+      },
+      {
+        "imageURL": "/64783116669464f45602f05e-herovector-1.svg",
+        "name": "Devops",
+        "profession": "developer",
+        "testimonial": "Best product in the world!"
+      }
+    ],
+    "pricing": [
+      {
+        "key": "fImKiQOPJn18PJEaf89xt36hQktavqsE",
+        "level": "basic",
+        "price": 25.0,
+        "description": " test site Add photos & a welcome message. Create any kind of gift you can imagine.",
+        "features": [
+          {
+            "key": "ddbwdqdq",
+            "feature": "Organize your travel plans"
+          },
+          {
+            "key": "2ue2hen",
+            "feature": "Tallies and displays travel stats"
+          },
+          {
+            "key": "1w2e324ef",
+            "feature": "Find places near a hotel"
+          }
+        ]
+      },
+      {
+        "key": "dJbPgFZpOdqnaBvtn7JRAE9eiVcINX7V",
+        "level": "premium",
+        "price": 50.0,
+        "description": "Add photos & a welcome message. Create any kind of gift you can imagine.",
+        "features": [
+          {
+            "key": "2ecdef4d",
+            "feature": "Organize your travel plans"
+          },
+          {
+            "key": "frg42daw",
+            "feature": "Tallies and displays travel stats"
+          },
+          {
+            "key": "chuwfhwhf",
+            "feature": "Find places near a hotel"
+          }
+        ]
+      },
+      {
+        "key": "5635GTT3ioj4VFnKjQCfEiFi1FbbkpsJ",
+        "level": "ultimate",
+        "price": 75.0,
+        "description": "Add photos & a welcome message. Create any kind of gift you can imagine.",
+        "features": [
+          {
+            "key": "29e838rhf",
+            "feature": "Organize your travel plans"
+          },
+          {
+            "key": "q3udwecnwe",
+            "feature": "Tallies and displays travel stats"
+          },
+          {
+            "key": "ladjhdd23",
+            "feature": "Find places near a hotel"
+          }
+        ]
+      }
+    ],
+    "footer": [
+      {
+        "key": "2F433343E98AA",
+        "itemName": "Home"
+      },
+      {
+        "key": "E958B2DECFDC1",
+        "itemName": "Company"
+      },
+      {
+        "key": "8A8FFA9C6D9CC",
+        "itemName": "Pricing"
+      },
+      {
+        "key": "2558211F2EE652E9",
+        "itemName": "Contact"
+      }
+    ],
+    "deployment": {
+      "domain": "example.ftest.ai"
+    }
+  }
+}
