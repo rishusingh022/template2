@@ -7,10 +7,10 @@ export default function Features(props: any) {
       {/* header */}
       <div className="flex flex-col mx-5 md:mx-[73px] mt-24 mb-12">
         <div className="max-w-[768px] flex flex-col gap-4">
-          <div className="text-4xl md:text-5xl text-black leading-[40px] font-semibold">
+          <div className="text-4xl md:text-5xl font-inter text-black leading-[40px] font-semibold">
             {props.featureData?.title}
           </div>
-          <div className="text-[#6B7280] font-normal text-base leading-[28px]">
+          <div className="text-[#6B7280] font-inter font-normal text-base leading-[28px]">
             {props.featureData?.subtitle}
           </div>
         </div>

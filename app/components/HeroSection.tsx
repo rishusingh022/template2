@@ -1,4 +1,3 @@
-//Hero section, what props are needed yet to be decided
 interface IPROPS {
   title: string;
   subtitle: string;
@@ -10,13 +9,13 @@ export default function HeroSection(props: IPROPS) {
     <div className="bg-white mx-auto flex flex-col max-w-[1280px]">
       <div className="bg-[url('/hero_background.png')] bg-cover bg-no-repeat bg-center w-full min-h-[700px] rounded-[20px] flex justify-center items-center p-2">
         <div className="text-white flex flex-col justify-center items-center">
-          <h1 className="text-5xl lg:text-6xl font-semibold leading-[60px] text-center tracking-[-2.5%]">
+          <h1 className="text-5xl font-inter lg:text-6xl font-semibold leading-[60px] text-center tracking-[-2.5%]">
             {props.title}{" "}
           </h1>
-          <h1 className="text-5xl lg:text-6xl font-extrabold leading-[60px] text-center tracking-[-2.5%] text-[#FCD34D]">
+          <h1 className="text-5xl lg:text-6xl font-inter font-extrabold leading-[60px] text-center tracking-[-2.5%] text-[#FCD34D]">
             {props.title_highlight}
           </h1>
-          <p className="text-xl mt-6 text-center font-normal leading-[28px] max-w-[768px]">
+          <p className="text-xl mt-6 text-center font-inter font-normal leading-[28px] max-w-[768px]">
             {props.subtitle}
           </p>
           <div className="flex flex-col md:flex-row justify-center items-center w-full mt-10 md:gap-0 gap-3">
@@ -25,14 +24,14 @@ export default function HeroSection(props: IPROPS) {
               type="text"
               placeholder="Enter your email"
             />
-            <button className="bg-[#059669] min-w-[194px]  ml-2 px-10 py-2 text-white rounded-md">
+            <button className="bg-[#059669] font-inter min-w-[330px] md:min-w-[194px]  md:ml-2 px-10 py-2 text-white rounded-md">
               Get Started
             </button>
           </div>
         </div>
       </div>
       <div className="text-black py-8 mb-10 px-10 flex-col justify-center items-center">
-        <div className="text-sm font-semibold leading-[20px] mb-5 tracking-[2.5%] text-center first-letter text-[#6B7280] uppercase">
+        <div className="text-base font-inter font-semibold leading-[20px] mb-5 tracking-[2.5%] text-center first-letter text-[#6B7280] uppercase">
           Trusted by over 5 very average small businesses
         </div>
         <div className="flex flex-row flex-wrap justify-center">

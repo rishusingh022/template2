@@ -24,7 +24,7 @@ export default function AskQuestion() {
             type="text"
             placeholder="Enter your email"
           />
-          <button className="bg-white text-black ml-2 px-5 py-2 rounded-md">
+          <button className="bg-white text-black ml-2 px-5 py-2 font-inter rounded-md">
             Get Started
           </button>
         </div>

@@ -104,7 +104,7 @@ export default function Service(props: any) {
             <div className="bg-[url('/service_card.png')] bg-cover bg-no-repeat bg-center w-full min-h-[560px] xl:rounded-[10px] xl:rounded-r-none"></div>
           </div>
           <div className="flex flex-col w-full xl:max-w-[60%] gap-10 p-5">
-            <div className="text-[#1F2937] max-w-[570px] text-5xl font-semibold ">
+            <div className="text-[#1F2937] max-w-[570px] text-5xl font-inter font-semibold ">
               {props.serviceData.servicesTitle}
             </div>
             <div className="flex text-black flex-wrap flex-row w-full gap-6 ">

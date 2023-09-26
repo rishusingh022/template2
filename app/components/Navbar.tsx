@@ -61,7 +61,7 @@ export default function Navbar(props: IPROPS) {
                         href={"/"}
                         key={item?.key}
                         onClick={() => sectActiveTab(item.itemName)}
-                        className={`cursor-pointer ${
+                        className={`cursor-pointer text-center px-6 py-3 ${
                           activeTab === item?.itemName
                             ? " text-black"
                             : "text-gray-400"
@@ -90,7 +90,7 @@ export default function Navbar(props: IPROPS) {
                     href={"/"}
                     key={item?.key}
                     onClick={() => sectActiveTab(item.itemName)}
-                    className={`cursor-pointer ${
+                    className={`cursor-pointer font-inter ${
                       activeTab === item?.itemName
                         ? " text-black"
                         : "text-gray-400"
@@ -104,7 +104,7 @@ export default function Navbar(props: IPROPS) {
           </div>
 
           <div className="nav__item mr-3 hidden space-x-4 lg:flex">
-            <button className="rounded-md bg-[#059669] px-6 py-3 text-white">
+            <button className="rounded-md font-inter bg-[#059669] px-6 py-3 text-white">
               Sign Up
             </button>
           </div>

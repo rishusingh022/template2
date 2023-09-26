@@ -10,11 +10,11 @@ export default function AddCard(props: any) {
             <div className="font-semibold text-3xl lg:text-4xl font-inter max-w-[440px]">
               {props.add_card?.title}
             </div>
-            <div className="font-normal lg:text-lg">
+            <div className="font-normal font-inter lg:text-lg">
               {props.add_card?.subtitle}
             </div>
           </div>
-          <div className="rounded-md bg-white text-[#059669] lg:font-medium w-28 h-12 lg:w-28 lg:h-12 border-1 py-[13px] px-[21px] text-base">
+          <div className="rounded-md font-inter bg-white text-[#059669] lg:font-medium w-28 h-12 lg:w-28 lg:h-12 border-1 py-[13px] px-[21px] text-base">
             Add card
           </div>
         </div>

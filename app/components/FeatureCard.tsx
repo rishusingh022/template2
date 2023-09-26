@@ -181,10 +181,10 @@ export default function FeatureCard(props: any) {
     <div className="bg-[#059669] w-full mx-5 lg:mx-0 lg:max-w-[412px] min-h-[304px] rounded-[20px] px-6 py-12 flex flex-col items-center gap-8">
       <div>{svgs[props.cardNumber]}</div>
       <div className="flex flex-col gap-4">
-        <div className="text-center text-white text-xl font-bold leading-[28px]">
+        <div className="text-center text-white text-xl font-inter font-bold leading-[28px]">
           {props.title}
         </div>
-        <div className="text-center text-white font-normal text-base leading-[24px]">
+        <div className="text-center text-white font-normal font-inter text-base leading-[24px]">
           {props.subtitle}
         </div>
       </div>
