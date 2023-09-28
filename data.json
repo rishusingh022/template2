@@ -1,173 +1,187 @@
 {
-  "landingPage": {
-    "title": "Take control of your",
-    "title_highlight": "dream business",
-    "subtitle": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua. ",
-    "lightLogo": "/logo.png",
-    "darkLogo": "/logoDark.png",
-    "navbar": [
+  "navbar": {
+    "navitems": [
       {
-        "key": "bs8RL0C8mp",
-        "itemName": "Sign in"
+        "id": "hbea4mv6pu",
+        "itemName": "Sign In"
       }
     ],
-    "add_card": {
-      "title": "Add your card to get 50% on paid package after launch",
-      "subtitle": "Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec."
-    },
-    "featureSection": {
-      "title": "Inbox support built for efficiency",
-      "subtitle": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit aliquam sit nisl euismod mattis in.",
-      "features": [
-        {
-          "featureTitle": "Innovation",
-          "featureDiscription": "Transforming the present, shaping the future: Embrace innovation & redefine what possible in a world of endless potential."
-        },
-        {
-          "featureTitle": "Growth",
-          "featureDiscription": "Nurturing progress, expanding horizons: Growth is  catalyst that propels forward on the journey of transformation."
-        },
-        {
-          "featureTitle": "Teamwork",
-          "featureDiscription": "Strength in unity: Together, we conquer challenges, spark brilliance, and achieve greatness through the power of teamwork."
-        },
-        {
-          "featureTitle": "Commitment",
-          "featureDiscription": "Devotion that knows no bounds: wavering commitment fuels progress, fosters growth, & paves the way to success."
-        },
-        {
-          "featureTitle": "Openness",
-          "featureDiscription": "Transparent, inclusive, and receptive: Openness creates space for ideas to flourish and collaborations to thrive."
-        },
-        {
-          "featureTitle": "Ownership",
-          "featureDiscription": "Empowered to lead, driven to excel Ownership fuels our passion, ignites innovation extraordinary achievements."
-        }
-      ]
-    },
-    "services": {
-      "servicesTitle": "What Do You Have To Choose?",
-      "services": [
-        {
-          "serviceName": "Cross-border transactions",
-          "serviceDescription": "Make transactions arond the world quickly and safey"
-        },
-        {
-          "serviceName": "Fast & easy transactions",
-          "serviceDescription": "PayZen prioritize the satisfactions of our users. Try PayZen now"
-        },
-        {
-          "serviceName": "24 hours assistance",
-          "serviceDescription": "We are 24 hours available to help you. We are there for you"
-        },
-        {
-          "serviceName": "You satisfaction is our priority",
-          "serviceDescription": "We always put the happiness of our users first"
-        }
-      ]
-    },
-    "testimonials": [
+    "lightLogo": "/template2_logo.png",
+    "darkLogo": "/template2_logo.png"
+  },
+  "hero_section": {
+    "headline": "Take control of your",
+    "extraHeadline": "dream business",
+    "sub_headline": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua. ",
+    "hero_cta": false
+  },
+  "USP": {
+    "title":"What Do You Have To Choose?",
+    "USPs": [
       {
-        "imageURL": "/64783116669464f45602f05e-herovector-1.svg",
-        "name": "John Doe",
-        "profession": "developer",
-        "testimonial": " test site This is the best service I have ever used!"
+        "id":"ddbwdqdq",
+        "title":"Cross-border transactions",
+        "desc":"Make transactions arond the world quickly and safey"
       },
       {
-        "imageURL": "/64783116669464f45602f05e-herovector-1.svg",
-        "name": "Jane Doe",
-        "profession": "tester",
-        "testimonial": "I highly recommend this service!"
+        "id":"frg42daw",
+        "title":"Fast & easy transactions",
+        "desc":"PayZen prioritize the satisfactions of our users. Try PayZen now"
       },
       {
-        "imageURL": "/64783116669464f45602f05e-herovector-1.svg",
-        "name": "Devops",
-        "profession": "developer",
-        "testimonial": "Best product in the world!"
+        "id":"2ecdef4d",
+        "title":"24 hours assistance",
+        "desc":"We are 24 hours available to help you. We are there for you"
+      },
+      {
+        "id":"dfbgbnnf",
+        "title":"You satisfaction is our priority",
+        "desc":"We always put the happiness of our users first"
       }
-    ],
+    ]
+  },
+  "feature": {
+    "title":"Inbox support built for efficiency",
+    "subtitle":"Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit aliquam sit nisl euismod mattis in.",
+    "features":[
+      {
+        "id":"29e838rhf",
+        "desc":"Transforming the present, shaping the future: Embrace innovation & redefine what possible in a world of endless potential.",
+        "title":"Innovation"
+      },
+      {
+        "id":"2ecdef4d",
+        "desc":"Nurturing progress, expanding horizons: Growth is  catalyst that propels forward on the journey of transformation.",
+        "title":"Growth "
+      },
+      {
+        "id":"2ue2hen",
+        "desc":"Strength in unity: Together, we conquer challenges, spark brilliance, and achieve greatness through the power of teamwork.",
+        "title":"Teamwork"
+      },
+      {
+        "id":"chuwfhvfg",
+        "desc":"Devotion that knows no bounds: wavering commitment fuels progress, fosters growth, & paves the way to success.",
+        "title":"Commitment"
+      },
+      {
+        "id":"rggffhvfg",
+        "desc":"Transparent, inclusive, and receptive: Openness creates space for ideas to flourish and collaborations to thrive.",
+        "title":"Openness"
+      },
+      {
+        "id":"feretgrbbb",
+        "desc":"Empowered to lead, driven to excel Ownership fuels our passion, ignites innovation extraordinary achievements.",
+        "title":"Ownership"
+      }
+    ]
+  },
+  "choose_plan": {
+    "title":"Choose the plan",
     "pricing": [
       {
-        "key": "fImKiQOPJn18PJEaf89xt36hQktavqsE",
-        "level": "basic",
-        "price": 25.0,
-        "description": " test site Add photos & a welcome message. Create any kind of gift you can imagine.",
+        "id": "fImKiQOPJn18PJEaf89xt36hQktavqsE",
+        "level": "Basic",
+        "price": 25,
+        "description": "All the basics for businesses that are just getting started.",
         "features": [
           {
-            "key": "ddbwdqdq",
-            "feature": "Organize your travel plans"
+            "id": "ddbwdqdq",
+            "feature": "Organizes your travel Plans"
           },
           {
-            "key": "2ue2hen",
+            "id": "2ue2hen",
             "feature": "Tallies and displays travel stats"
           },
           {
-            "key": "1w2e324ef",
-            "feature": "Find places near a hotel"
+            "id": "2ue2hne",
+            "feature": "Find places near hotel"
+          },
+          {
+            "id": "2u2enhe",
+            "feature": "Find places near hotel"
           }
         ]
       },
       {
-        "key": "dJbPgFZpOdqnaBvtn7JRAE9eiVcINX7V",
-        "level": "premium",
-        "price": 50.0,
-        "description": "Add photos & a welcome message. Create any kind of gift you can imagine.",
+        "id": "dJbPgFZpOdqnaBvtn7JRAE9eiVcINX7V",
+        "level": "Standard",
+        "price": 65,
+        "description": "All the basics for businesses that are just getting started.",
         "features": [
           {
-            "key": "2ecdef4d",
-            "feature": "Organize your travel plans"
+            "id": "ddbwdqdq",
+            "feature": "Organizes your travel Plans"
           },
           {
-            "key": "frg42daw",
+            "id": "2ue2hen",
             "feature": "Tallies and displays travel stats"
           },
           {
-            "key": "chuwfhwhf",
-            "feature": "Find places near a hotel"
+            "id": "2ue2hne",
+            "feature": "Find places near hotel"
+          },
+          {
+            "id": "2u2enhe",
+            "feature": "Find places near hotel"
           }
         ]
       },
       {
-        "key": "5635GTT3ioj4VFnKjQCfEiFi1FbbkpsJ",
-        "level": "ultimate",
-        "price": 75.0,
-        "description": "Add photos & a welcome message. Create any kind of gift you can imagine.",
+        "id": "5635GTT3ioj4VFnKjQCfEiFi1FbbkpsJ",
+        "level": "Premium",
+        "price": 52,
+        "description": "All the basics for businesses that are just getting started.",
         "features": [
           {
-            "key": "29e838rhf",
-            "feature": "Organize your travel plans"
+            "id": "ddbwdqdq",
+            "feature": "Organizes your travel Plans"
           },
           {
-            "key": "q3udwecnwe",
+            "id": "2ue2hen",
             "feature": "Tallies and displays travel stats"
           },
           {
-            "key": "ladjhdd23",
-            "feature": "Find places near a hotel"
+            "id": "2ue2hne",
+            "feature": "Find places near hotel"
+          },
+          {
+            "id": "2u2enhe",
+            "feature": "Find places near hotel"
           }
         ]
       }
-    ],
-    "footer": [
+    ]
+  },
+  "add_card": {
+    "title": "Add your card to get 50% on paid package after launch",
+    "desc": "Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec."
+  },
+  "waitlist": {
+    "title": "Start using Workflow today.",
+    "extraTitle": "Boost your productivity.",
+    "subtitle": "Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec."
+  },
+  "footer": {
+    "socials": [
       {
-        "key": "2F433343E98AA",
-        "itemName": "Home"
+        "key": "2F433343E98sdf",
+        "platform": "instagram",
+        "link": "#"
       },
       {
-        "key": "E958B2DECFDC1",
-        "itemName": "Company"
+        "key": "2F433343E9sdfs",
+        "platform": "facebook",
+        "link": "#"
       },
       {
-        "key": "8A8FFA9C6D9CC",
-        "itemName": "Pricing"
-      },
-      {
-        "key": "2558211F2EE652E9",
-        "itemName": "Contact"
+        "key": "2F433343E9vdsg",
+        "platform": "twitter",
+        "link": "#"
       }
-    ],
-    "deployment": {
-      "domain": "example.ftest.ai"
-    }
+    ]
+  },
+  "deployment": {
+    "domain": "example.ftest.ai"
   }
 }

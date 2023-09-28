@@ -3,11 +3,11 @@ interface IPROPS {
   subtitle: string;
   title_highlight: string;
 }
-export default function HeroSection(props: IPROPS) {
+export default function Hero(props: IPROPS) {
   return (
     //
     <div className="bg-white mx-auto flex flex-col max-w-[1280px]">
-      <div className="bg-[url('/hero_background.png')] bg-cover bg-no-repeat bg-center w-full min-h-[700px] rounded-[20px] flex justify-center items-center p-2">
+      <div className="bg-[url('/template2_hero_bg.png')] bg-cover bg-no-repeat bg-center w-full min-h-[700px] rounded-[20px] flex justify-center items-center p-2">
         <div className="text-white flex flex-col justify-center items-center">
           <h1 className="text-5xl font-inter lg:text-6xl font-semibold leading-[60px] text-center tracking-[-2.5%]">
             {props.title}{" "}
@@ -18,19 +18,9 @@ export default function HeroSection(props: IPROPS) {
           <p className="text-xl mt-6 text-center font-inter font-normal leading-[28px] max-w-[768px]">
             {props.subtitle}
           </p>
-          <div className="flex flex-col md:flex-row justify-center items-center w-full mt-10 md:gap-0 gap-3">
-            <input
-              className="border focus:outline-none min-w-[330px] py-2 px-3 rounded-md text-black"
-              type="text"
-              placeholder="Enter your email"
-            />
-            <button className="bg-[#059669] font-inter min-w-[330px] md:min-w-[194px]  md:ml-2 px-10 py-2 text-white rounded-md">
-              Get Started
-            </button>
-          </div>
         </div>
       </div>
-      <div className="text-black py-8 mb-10 px-10 flex-col justify-center items-center">
+      <div className="text-black py-10 mb-10 px-10 flex-col justify-center items-center">
         <div className="text-base font-inter font-semibold leading-[20px] mb-5 tracking-[2.5%] text-center first-letter text-[#6B7280] uppercase">
           Trusted by over 5 very average small businesses
         </div>

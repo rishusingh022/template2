@@ -95,30 +95,30 @@ const svgs = [
   </svg>,
 ];
 
-export default function Service(props: any) {
+export default function USP(props: any) {
   return (
-    <div className="flex flex-row justify-end w-full">
-      <div className="flex lg:flex-row bg-white flex-col w-full max-w-[1317px]">
+    <div className="flex flex-row justify-end w-full pb-5">
+      <div className="flex lg:flex-row bg-white flex-col w-full max-w-[1400px]">
         <div className="flex flex-col xl:flex-row-reverse w-full gap-14">
           <div className="flex-auto w-full xl:max-w-[40%] pt-5">
-            <div className="bg-[url('/service_card.png')] bg-cover bg-no-repeat bg-center w-full min-h-[560px] xl:rounded-[10px] xl:rounded-r-none"></div>
+            <div className="bg-[url('/template2_USP.png')] bg-cover bg-no-repeat bg-center w-full min-h-[560px] xl:rounded-[10px] xl:rounded-r-none"></div>
           </div>
           <div className="flex flex-col w-full xl:max-w-[60%] gap-10 p-5">
             <div className="text-[#1F2937] max-w-[570px] text-5xl font-inter font-semibold ">
-              {props.serviceData.servicesTitle}
+              {props.title}
             </div>
             <div className="flex text-black flex-wrap flex-row w-full gap-6 ">
-              {props.serviceData.services.map((service: any, index: string) => {
+              {props.services.map((service: any, index: string) => {
                 return (
                   <>
                     <div className="w-[45%] md:w-[48%] flex flex-col gap-[15px]">
                       <div>{svgs[parseInt(index,10)]}</div>
                       <div className="flex flex-col gap-1">
                         <div className="text-2xl leading-8 font-medium font-inter text-[#374151]">
-                          {service.serviceName}
+                          {service.title}
                         </div>
                         <div className="text-base md:max-w-[240px] font-normal leading-[20px] font-inter text-[#6B7280]">
-                          {service.serviceDescription}
+                          {service.desc}
                         </div>
                       </div>
                     </div>
